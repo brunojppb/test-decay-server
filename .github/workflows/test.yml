@@ -16,5 +16,5 @@ jobs:
 
       - uses: actions/setup-node@v4
 
-      - name: Run JS code
-        run: node index.js
+      - name: Reach out to the decay server
+        run: curl http://127.0.0.1:8000/ms-joe
