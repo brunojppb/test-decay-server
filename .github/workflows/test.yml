@@ -14,7 +14,5 @@ jobs:
         with:
           port: "9000"
 
-      - uses: actions/setup-node@v4
-
       - name: Reach out to the decay server
         run: curl http://127.0.0.1:8000/ms-joe
